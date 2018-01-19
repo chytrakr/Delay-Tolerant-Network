@@ -1,0 +1,11 @@
+create database DynamicSecurity
+
+use DynamicSecurity
+
+create table NodeInfo NodeName varchar(10),IpAddress varchar(10),PortNumber varchar(10)
+
+create table NodesLink names varchar(10),source varchar(10),source varchar(10),weight varchar(10)
+
+create table PossiblePaths (paths varchar(10),edgeweight varchar(20))
+
+create table RoutingTable(routes varchar(10),packets varchar(4))

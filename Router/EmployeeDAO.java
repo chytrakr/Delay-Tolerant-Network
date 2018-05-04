@@ -1,7 +1,5 @@
 package com.crud.app.dao;
-
 import java.util.List;
-
 import com.crud.app.model.Employee;
 
 public interface EmployeeDAO {
@@ -15,5 +13,4 @@ public interface EmployeeDAO {
 	List<Employee> getAllEmployees();
 	
 	Employee getEmployeeById(long id);
-	
 }
